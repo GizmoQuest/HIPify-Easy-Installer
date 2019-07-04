@@ -1,7 +1,7 @@
 # HIPify-Easy-Installer
 To enable easy installation of HIPify to be able to port CUDA code to ROCm HIP. Works on Ubuntu 18.04 LTS Linux.
 
-[HIPify](https://github.com/ROCm-Developer-Tools/HIP/tree/master/hipify-clang) is a unique tool that makes cross-platform portability possible by converting a CUDA (.cu) file into [ROCm](https://rocm.github.io) HIP(.cpp). ROCm HIP can be used on both NVIDIA and AMD GPUs.
+[HIPify](https://github.com/ROCm-Developer-Tools/HIP/tree/master/hipify-clang) is a unique tool that makes cross-platform portability possible by converting a [CUDA](https://developer.nvidia.com/cuda-zone) (.cu) file into [ROCm](https://rocm.github.io) HIP(.cpp). ROCm HIP can be used on both NVIDIA and AMD GPUs.
 
 Installing HIPify from source can be a bit complicated for novice users. So an easy-to-deploy Open Source installer for the same was released to make the process more convenient.
 
