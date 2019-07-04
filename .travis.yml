@@ -1,0 +1,5 @@
+language: bash
+    
+script:
+  - chmod +x HIPify-Easy-Installer.sh
+- source HIPify-Easy-Installer.sh
