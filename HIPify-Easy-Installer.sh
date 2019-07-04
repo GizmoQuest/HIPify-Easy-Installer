@@ -24,7 +24,7 @@
 #HIPify - a unique tool from ROCm to easily convert CUDA code into HIP. 
 #1. First, install all dependencies to install and run hipify:
 sudo apt update
-sudo apt -y install git cmake clang-6.0 libclang-6.0-dev libclang-perl libclanlib-dev libclang-dev zlib1g-dev
+sudo apt -y install git cmake clang-6.0 libclang-6.0-dev libclang-perl libclanlib-dev libclang-dev zlib1g-dev llvm-6.0 llvm-6.0-dev llvm-6.0-runtime
 git clone https://github.com/GPUOpen-ProfessionalCompute-Tools/HIP HIP
 cd HIP/hipify-clang/
 mkdir build dist
